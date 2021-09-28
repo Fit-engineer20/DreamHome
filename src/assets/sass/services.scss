@@ -1,0 +1,135 @@
+
+.serv-head{
+    text-align:center;
+    margin-top:70px;
+
+    h1{
+        color:#ffb606;
+    }
+    p{
+        color:#898b8a;
+        font-family: 'Lato', sans-serif;
+    }
+    hr{
+        width:10%;
+        margin:auto;
+        margin-top:30px;
+        border-top: 2px solid;
+        border-top-color: #000000;
+        background-color: transparent;
+        opacity:1;
+    }
+}
+
+.services{
+
+    .row{
+       
+        .serv-card{
+
+            border-bottom:7px solid #ffb606;
+            margin-top:70px;
+            margin-bottom:70px;
+            border-radius:5%;
+
+            i{
+                margin-left:1rem;
+                margin-top:2rem;
+                color:#ffb606;
+                font-size:50px;
+            }
+            .card-body{
+
+                h5{
+                    font-size:larger;
+                    margin:20px auto;
+                    color:#898b8a;
+                }
+                p{
+                    letter-spacing: 3px;
+                    margin:5px auto;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:900px){
+    .serv-head{
+        text-align:center;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+
+    .services{
+
+        .row{
+
+            .serv-card{
+                margin-top:0;
+                margin-bottom:50px;
+
+                i{
+                    font-size:30px;
+                } 
+
+                .card-body{
+
+                    h5{
+                        font-size:18px;
+                    }
+                    p{
+                        font-size:13px;
+                        margin-top:10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media(max-width:450px){
+    
+
+    .serv-head{
+        h1{
+            font-size:30px;
+        }
+
+        p{
+            font-size:13px;
+        }
+
+        hr{
+            margin-top:20px;
+        }
+    }
+
+    .services{
+
+        .row{
+
+            .serv-card{
+                margin-top:0;
+                margin-bottom:50px;
+
+                i{
+                    font-size:30px;
+                } 
+
+                .card-body{
+
+                    h5{
+                        font-size:15px;
+                    }
+                    p{
+                        font-size:13px;
+                        margin-top:10px;
+                    }
+                }
+            }
+        }
+    }
+}

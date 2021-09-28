@@ -1,0 +1,157 @@
+.pro-div{
+    padding:3rem 7rem;
+
+    .pro-sub-div{
+        position:relative;
+
+        h1{
+            color:#ffb606;
+        }
+        p{
+            color:#898b8a;
+            font-family: 'Lato', sans-serif;
+            font-size:larger;
+        }
+        hr{
+            width:10%;
+            margin-top:30px;
+            border-top: 2px solid;
+            border-top-color: #000000;
+            background-color: transparent;
+            opacity:1;
+        }
+        button{
+            position:absolute;
+            top:20px;
+            right:0;
+        }
+    }
+
+    .container{
+        .pro-row{
+            margin-top:50px; 
+            margin-bottom:50px;
+
+            .pro-card{ 
+                margin-top:20px;
+                box-shadow: 0 0 3px grey ;
+
+                img{
+                    height:300px;
+                }
+
+                .pro-content{
+                    padding:20px;
+
+                    h4{
+                        font-family: 'Staatliches', cursive;
+                        letter-spacing:5px;
+                    }
+                    .flexbox{
+                        width:80%;
+
+                        i{
+                            color:#898b8a;
+                        }
+                    }
+
+                    .card-view-btn{
+                        color:#ffb606;
+                        border-color:#ffb606;
+
+                        &:hover{
+                            background-color:#ffb606;
+                            color:#f5f4f4;
+                            border-color:#ffb606;
+                        }
+                    }
+                   
+                 }
+            }
+       }
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    
+    .pro-div{
+        padding:1rem 2rem;
+    
+        .pro-sub-div{
+            text-align:center;
+    
+            hr{
+                margin:auto;
+            }
+            
+            button{
+                position:unset;
+                margin-top:30px;
+            }
+        }
+    
+        .container{
+            .pro-row{
+                margin-top:30px; 
+                margin-bottom:20px;
+    
+                .pro-card{ 
+    
+                    img{
+                        height:200px;
+                    }
+    
+                    .pro-content{
+                        
+                        .flexbox{
+                            width:100%;
+                        }
+    
+                     }
+                }
+           }
+        }
+    }
+
+}
+
+
+
+@media(max-width:450px){
+
+    .pro-div{
+
+        .pro-sub-div{
+
+            h1{
+                font-size:30px;
+            }
+
+            p{
+                font-size:13px;
+            }
+
+            button{
+                font-size:15px;
+              }
+
+        }
+
+        .container{
+            .pro-row{
+               
+                .pro-card{ 
+
+                    .pro-content{
+                        
+                        .card-view-btn{
+                            font-size:15px;
+                          } 
+                          
+                    }
+                }
+            }
+        }
+    }
+}

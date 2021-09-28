@@ -1,0 +1,38 @@
+.mod-main{
+    width:40% !important;
+
+    .mod-head{
+        font-size:2.5rem !important;
+    }
+    .mod-con{
+
+        form{
+
+            label{
+                font-size:1.5rem;
+            }
+            input{
+                font-size:1rem;
+            }
+        }
+        .under-btn{
+            span{
+                &:hover{
+                    text-decoration:underline;
+                }
+            }
+        }
+        .icons{
+            cursor:pointer;
+            .fb:hover{
+                color: #4267B2
+            }
+            .tw:hover{
+                color:#1DA1F2;
+            }
+            .go:hover{
+                color:#DB4437;
+            }
+        }
+    }
+}
