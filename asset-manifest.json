@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/DreamHome/static/css/main.18779ce8.chunk.css",
-    "main.js": "/DreamHome/static/js/main.98e95e7a.chunk.js",
-    "main.js.map": "/DreamHome/static/js/main.98e95e7a.chunk.js.map",
+    "main.css": "/DreamHome/static/css/main.c304e81d.chunk.css",
+    "main.js": "/DreamHome/static/js/main.7efded73.chunk.js",
+    "main.js.map": "/DreamHome/static/js/main.7efded73.chunk.js.map",
     "runtime-main.js": "/DreamHome/static/js/runtime-main.34b709f1.js",
     "runtime-main.js.map": "/DreamHome/static/js/runtime-main.34b709f1.js.map",
     "static/css/2.88b34783.chunk.css": "/DreamHome/static/css/2.88b34783.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.40293124.chunk.js.map": "/DreamHome/static/js/2.40293124.chunk.js.map",
     "index.html": "/DreamHome/index.html",
     "static/css/2.88b34783.chunk.css.map": "/DreamHome/static/css/2.88b34783.chunk.css.map",
-    "static/css/main.18779ce8.chunk.css.map": "/DreamHome/static/css/main.18779ce8.chunk.css.map",
+    "static/css/main.c304e81d.chunk.css.map": "/DreamHome/static/css/main.c304e81d.chunk.css.map",
     "static/js/2.40293124.chunk.js.LICENSE.txt": "/DreamHome/static/js/2.40293124.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/DreamHome/static/media/outline-icons.ddae9b1b.woff",
     "static/media/canada.299b5892.png": "/DreamHome/static/media/canada.299b5892.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.34b709f1.js",
     "static/css/2.88b34783.chunk.css",
     "static/js/2.40293124.chunk.js",
-    "static/css/main.18779ce8.chunk.css",
-    "static/js/main.98e95e7a.chunk.js"
+    "static/css/main.c304e81d.chunk.css",
+    "static/js/main.7efded73.chunk.js"
   ]
 }
