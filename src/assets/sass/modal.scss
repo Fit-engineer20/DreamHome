@@ -33,6 +33,13 @@
             .go:hover{
                 color:#DB4437;
             }
-        }
+        } 
+    }
+}
+
+@media (max-width: 500px)
+{
+    .mod-main{
+        width:80% !important;
     }
 }

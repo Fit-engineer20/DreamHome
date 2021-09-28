@@ -34,7 +34,7 @@ const ModalExampleDimmer = (props) => {
             </div>
           </form>
           <div className="under-btn text-center my-4">
-            Don't have an account? <a href="/" style={{textDecoration:"none"}}> <span style={{color:"#ffb606"}} >Sign Up</span> </a>
+            Don't have an account? <a href="/DreamHome/" style={{textDecoration:"none"}}> <span style={{color:"#ffb606"}} >Sign Up</span> </a>
           </div>
           <div className="icons d-flex align-items-center justify-content-evenly mt-5">
               <i class="fab fa-2x fb fa-facebook"></i>
@@ -43,7 +43,7 @@ const ModalExampleDimmer = (props) => {
           </div>
         </Modal.Content>
       </Modal>
-    </div>
+    </div> 
   )
 }
 
